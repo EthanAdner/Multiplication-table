@@ -25,5 +25,6 @@ width=[1,2,3,4,5,6,7,8,9,10]
 height=[1,2,3,4,5,6,7,8]
 l=[0]
 for y in width:
+    print("")
     for x in height:
         print(y*x, " ", end="")

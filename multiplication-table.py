@@ -30,4 +30,4 @@ for x in range(1,height+1):
         if len(str(x*y))>1:
             print(x*y, " ", end="")
         else:
-            print(y*x, "", end=" ")
+            print(y*x, " ", end=" ")

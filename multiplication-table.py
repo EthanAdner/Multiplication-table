@@ -26,7 +26,7 @@ width=int(input("Width of multiplication table: "))
 height=int(input("Hieght of the multiplication table: "))
 for x in range(1,height+1):
     print("")
-    for y in range(1,widt1):
+    for y in range(1,width+1):
         if len(str(x*y))>1:
             print(x*y, " ", end="")
         else:
